@@ -9,7 +9,7 @@ export const quanLySinhVienReducer = (state = [], action) => {
   switch (action.type) {
     case SET_DANH_SACH_SINH_VIEN: {
       state = action.payload;
-      console.log("lay ds sv", state);
+      console.log("DSSV from API", state);
       return [...state];
     }
     case THEM_SINH_VIEN: {

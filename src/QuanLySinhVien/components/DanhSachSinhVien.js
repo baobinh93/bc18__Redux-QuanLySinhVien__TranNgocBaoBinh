@@ -11,9 +11,9 @@ class DanhSachSinhVien extends Component {
           className="btn btn-primary m-5"
           data-toggle="modal"
           data-target="#myModal"
-          // onClick={() => {
-          //   this.props.resetSv();
-          // }}
+          onClick={() => {
+            this.props.resetSv();
+          }}
         >
           {" "}
           Thêm Sinh Viên
